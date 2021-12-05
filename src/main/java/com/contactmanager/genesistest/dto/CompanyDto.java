@@ -29,5 +29,6 @@ public class CompanyDto {
 	@Valid
     private AddressDto address;
 	
+	@JsonIgnore
     private Set<ContactDto> contactDtos;
 }

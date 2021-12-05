@@ -11,8 +11,6 @@ import com.contactmanager.genesistest.dao.ContactDao;
 import com.contactmanager.genesistest.entities.Company;
 import com.contactmanager.genesistest.entities.Contact;
 
-import net.bytebuddy.implementation.bytecode.Throw;
-
 @Service
 public class CompanyServiceImpl implements CompanyService {
 

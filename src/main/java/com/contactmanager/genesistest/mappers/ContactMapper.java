@@ -1,10 +1,7 @@
 package com.contactmanager.genesistest.mappers;
 
-import org.apache.commons.lang3.StringUtils;
-
 import com.contactmanager.genesistest.dto.ContactDto;
 import com.contactmanager.genesistest.entities.Contact;
-import com.contactmanager.genesistest.enums.ContactType;
 
 public class ContactMapper {
 	public static ContactDto mapContactToDto(Contact contact){

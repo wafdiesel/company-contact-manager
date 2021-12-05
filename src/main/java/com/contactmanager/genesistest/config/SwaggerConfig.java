@@ -21,5 +21,4 @@ public class SwaggerConfig {
 			.apis(RequestHandlerSelectors.basePackage("com.contactmanager.genesistest.controller"))	
 				.build();
 	}
-	
 }

@@ -11,6 +11,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder(setterPrefix = "with")
+
 public class AddressDto {
 	@NotEmpty(message = "street cannot be empty")
 	private String street;

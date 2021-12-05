@@ -4,7 +4,6 @@ import javax.validation.Valid;
 import javax.validation.constraints.NotEmpty;
 
 import com.contactmanager.genesistest.enums.ContactType;
-import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
