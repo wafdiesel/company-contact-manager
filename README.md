@@ -6,7 +6,9 @@ The application can be launched from an IDE (I used intellij) by running the cla
 After launching, the Application will be available on port 8081
 
 ## Testing the app with swagger
-Swagger UI is configured. The following link gives you the swagger UI interface to viex the application's documentation and to test the fonctionnalities (endpoints)
+Swagger UI is configured. The following link gives you the swagger UI interface to viex the application's documentation and to test the fonctionnalities (endpoints):
 http://localhost:8081/swagger-ui/#/
 
-
+## Database
+H2 inmemory database was used for this project. After launchin the application, H2 interface could be accessed via the following link:
+http://localhost:8081/h2-console/ (username: sa, password: password)
